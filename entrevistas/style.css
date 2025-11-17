@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  /*links (eu lembrei sozinha como fa esse trem 😃)*/ 
+  a{
+      color:#001;
+    }
+  a:hover{
+    color:#4027ae;
+  }
+  a:active{
+    color: rgb(197, 228, 255);
+  }
+    /* --- Cabeçalho --- */
+    .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    }
+    .navbar-content {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px 20px;
+    height: 20px;
+
+    }
+    #logo{
+    margin: 0;
+    padding: 0;
+    height:  30vh;
+    }
+    /* --- Container Principal --- */
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+     /* --- Formatação --- */
+
+
+  h1 {
+    color: #2c3e50;
+    text-align: center;
+  }
+
+  .entrevistador {
+    font-weight: bold;
+    color: #2980b9;
+  }
+
+  .entrevistado {
+    font-weight: bold;
+    color: #4027ae;
+  }
+
+  .bloco {
+    margin-bottom: 1.5em;
+  }
+
+  .subinfo {
+    text-align: center;
+    font-size: 0.95em;
+    color: #555;
+  }
+/*blocos de entrevistas*/
+
+.popular-articles h2 {
+    
+  font-size: 1.875rem; /* 30px */
+  font-weight: 700;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 8px;
+  }
+  .articles-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Padrão para telas pequenas */
+  gap: 32px;
+  }
+  .card {
+  
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  overflow: hidden; /* Garante que a imagem não vaze das bordas arredondadas */
+  }
+  .card-content {
+  padding: 24px;
+  
+  }
+  .card-content h3 {  
+  all: unset;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 8px 0;
+  
+  }
+  .excerpt {
+  color: #4b5563;
+  
+  }
+
+
+
